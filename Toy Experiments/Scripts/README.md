@@ -2,6 +2,9 @@ To implement the Hordes, we proposed the RLGLueHorde framework which adapts the 
 
 The RLGLue framework is a general solution to glue an environment with an agent, so that interactions between them occur. For instance, the environment can be a maze, and the Agent can be a Q-Learning agent. Concretely, an RLGlue instance is created with an Environment class type and Agent class type, on the basis of environment and agent parameters. This RLGlue instance then creates the Environment instance and Agent instance.
 
+Similarly, the RLGlueHorde glues a horde, which can have multiple agents, with a horde environment. Contrary to the previous setting, the agents are now responsible for generating cumulants and termination signals. The horde environment simply affects the transition dynamics.
+
+
 In this folder, you will find:
 > environment_horde.py: an abstract class for a horde environment
 
