@@ -1,6 +1,7 @@
 # General Value Distribution
 
 This repositery includes some of the code used for the Dissertation: General Value Distribution.
+The Dissertation is saved on this repo in the Dissertation-vf.pdf file.
 
 The Background folder includes the code for the mini-experiments conducted in the introductory section.
 
